@@ -45,6 +45,7 @@ function doWhileLoop(array) {
   do {
     array.pop();
     incrementVariable();
+    console.log(array)
   }
   while (0 < array.length)
   
