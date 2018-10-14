@@ -52,7 +52,7 @@ function doWhileLoop(array) {
   do {
     array.pop();
     //incrementVariable();
-    console.log(array)
+    //console.log(array)
   }
   while (0 < array.length && incrementVariable())
   
