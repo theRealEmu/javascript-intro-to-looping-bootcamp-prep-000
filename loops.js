@@ -37,7 +37,12 @@ function incrementVariable() {
 }
 
 function doWhileLoop(array) {
-  
+  var i = 0;
+  do {
+    array.pop();
+    incrementVariable();
+  }
+  while (i < array.length)
 }
 
 
