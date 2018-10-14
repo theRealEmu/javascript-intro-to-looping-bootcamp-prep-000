@@ -46,7 +46,7 @@ function doWhileLoop(array) {
     array.pop();
     incrementVariable();
   }
-  while (i < array.length)
+  while (0 < array.length)
 }
 
 
