@@ -51,10 +51,10 @@ function doWhileLoop(array) {
   
   do {
     array.pop();
-    incrementVariable();
+    //incrementVariable();
     console.log(array)
   }
-  while (incrementVariable())
+  while (0 < array.length && incrementVariable())
   
 }
 
