@@ -58,6 +58,6 @@ function doWhileLoop(array) {
   
 }
 
-doWhileLoop([1,2,3,4]);
+//doWhileLoop([1,2,3,4]);
 
 
