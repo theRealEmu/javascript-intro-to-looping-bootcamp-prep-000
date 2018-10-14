@@ -56,6 +56,8 @@ function doWhileLoop(array) {
   }
   while (0 < array.length && incrementVariable())
   
+  return array;
+  
 }
 
 //doWhileLoop([1,2,3,4]);
