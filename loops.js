@@ -40,7 +40,9 @@ function doWhileLoop(array) {
   
   function incrementVariable() {
     
-    if (i === array.length) return false else {
+    if (i === array.length) {
+      return false;
+    } else {
       i = i + 1;
       return true;
     }
