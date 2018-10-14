@@ -36,6 +36,8 @@ function incrementVariable() {
   i = i + 1;
 }
 
-function diWhileLoop(array) {
+function doWhileLoop(array) {
   
 }
+
+
