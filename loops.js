@@ -49,6 +49,6 @@ function doWhileLoop(array) {
   }
   while (0 < array.length)
   
-}
+}();
 
 
