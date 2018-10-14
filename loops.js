@@ -39,7 +39,11 @@ function doWhileLoop(array) {
   var i = 0;
   
   function incrementVariable() {
-    i = i + 1;
+    
+    if (i === array.length) return false else {
+      i = i + 1;
+      return true;
+    }
     
   }
   
@@ -48,7 +52,7 @@ function doWhileLoop(array) {
     incrementVariable();
     console.log(array)
   }
-  while (0 < array.length)
+  while (incrementVariable())
   
 }
 
